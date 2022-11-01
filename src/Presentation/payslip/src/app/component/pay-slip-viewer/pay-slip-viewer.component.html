@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row row-line">
+        <div class="shadow-lg p-3 mb-5 bg-white rounded">  
+            <div class="card" id="paySlipCard">
+                <div class="card-header text-center">
+                    <P>Pay Slip</P>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col col-md-4 lable">Name</div>
+                        <div class="col col-md-8">{{paySlip.name}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 lable">Pay Period</div>
+                        <div class="col-md-8">{{paySlip.payPeriod}}</div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-4 lable">Gross Income ($)</div>
+                        <div class="col-md-8">{{paySlip.grossIncome}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 lable">Income Tax ($))</div>
+                        <div class="col-md-8">{{paySlip.incomeTax}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 lable">Net Income ($)</div>
+                        <div class="col-md-8">{{paySlip.netIncome}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 lable">Super ($)</div>
+                        <div class="col-md-8">{{paySlip.super}}</div>
+                    </div>
+                </div>
+            </div>
+        <div class="row footer-row-line">
+            <div class="col-md-4">  
+            </div>
+            <div class="col-md-4">  
+                <button class="btn btn-primary submit-button" (click)="printPaySlip()">Print</button>
+            </div>
+            <div class="col-md-4">  
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
