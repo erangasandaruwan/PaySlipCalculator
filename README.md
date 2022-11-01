@@ -28,5 +28,5 @@ The back-end application is implemented with entity core (EF Core)  and built to
 + Run the solution from Visual Studio else deploy the solution to IIS Server (Please refer the steps here - [Publish an ASP.NET Core app to IIS](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-6.0&tabs=visual-studio)).
 + Run the solution with Docker - From terminal go into src folder, Run **`docker compose up`** and Open http://localhost:5001 on the browser.
 + Swagger - Open https://localhost:5001/swagger/index.html on the browser.
-+ ![image](https://user-images.githubusercontent.com/25504137/199136089-4853a26c-1e66-4205-98e9-27b08635c3af.png)
++ ![image](https://user-images.githubusercontent.com/25504137/199136089-4853a26c-1e66-4205-98e9-27b08635c3af.png | width= 300)
 
