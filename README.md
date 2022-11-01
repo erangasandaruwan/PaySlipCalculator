@@ -8,7 +8,7 @@ Tech stack
 ------------------------------------
 
 + Front-end 
-  + angular 14 with Boostarp.
+  + **Angular** 14 with **Bootstrap**.
 + Back-end
   + .Net core 3.1 incluing **MediatR**, **Fluent validation** & **AutoMapper** with **Nlog** logging
   + **MS SQL Server** & **Entity Core** 
@@ -42,10 +42,13 @@ Assumptions
 + No Authentication.
 + Consistancy over performance.
 + Back-end - Tax Rates will not get frequently get updated, else it is required to re-deploy the solution.
-+ Front-end - Will always depend on language/culture with US-English.
++ Front-end - Will always depend on language/culture with US-English. Else we need to fetch Pay Period details from the a API.
 
 Next Steps
 ------------------------------------
 + Back-end - Implement a distributed caching mechanism and cache expiring mechanism.
 + Front-end - Add unit tests to Front-end(Karma with Angular).
 + Front-end - Make the UI more user friendly.
++ Front-end - Implement state management using angular store, actions, reduces and effects.
+  ![image](https://user-images.githubusercontent.com/25504137/199139267-d424c40b-0f35-4492-bdda-67b7f1926745.png)
+
