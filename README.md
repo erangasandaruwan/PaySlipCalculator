@@ -10,8 +10,8 @@ Tech stack
 + Front-end 
   + angular 14.
 + Back-end
-  + dotnet core 3.1 incluing **MediatR**, **Fluent validation** & **AutoMapper** with **Nlog** logging
+  + .Net core 3.1 incluing **MediatR**, **Fluent validation** & **AutoMapper** with **Nlog** logging
   + **MS SQL Server** & **Entity Core** 
-  + **In-Memory Cache**
+  + **Cache in-memory** with ASP.NET Core
 + Test
   + Unit test with **xUnit** & **Moq**
