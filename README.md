@@ -21,7 +21,7 @@ How to run the solution ?
 ------------------------------------
 ### Running the code 
 #### Back-end/ Microservices -
-The back-end application is implemented with entity core (EF Core)  and built to work with a MS SQL Server database for data/storage usage. Here, code first approach is being used and Database Migration and Seeds are available with the solution **PaySlip.DbMigration**.
+The back-end application is implemented with entity core (EF Core)  and built to work with a MS SQL Server database for data/storage usage. Here, code first approach is being used and Database Migration and Seeds are available with the solution **PaySlip.DbMigration**. (_Expected to run the solution with Visual Studio_)
 + First, create an empty database with an available/ accessible MS SQL Server.
 + DB Connectivity - Update the connection string with **PaySlipDbContext** inside appsettings.json file of the solution **PaySlip.Api**.
 + Migrations - Run the command **`Update-database`** to create the tables and insert seeds with Tax Rates.
@@ -31,7 +31,9 @@ The back-end application is implemented with entity core (EF Core)  and built to
   ![image](https://user-images.githubusercontent.com/25504137/199136516-bdc07ffa-3532-4345-b6b7-a3d75fc3b4e0.png)
 
 #### Fron-end/ Angular App -
-The angular application is a simple interface implemented to invoke the back-end API.
-+ Install angular cli running the command `**npm i @angular/cli**`
-+ Run the command `**npm install**` to install/update the required packages.
-+ Run the comman `**ng serve**` to run the solution and Open http://localhost:4200 on the browser.
+The angular application is a simple interface implemented to invoke the back-end API. (_Expected to run the solution with Visual Studio Code_)
++ Install angular cli running the command **`npm i @angular/cli`**
++ Run the command **`npm install`** to install/update the required packages.
++ Run the comman **`ng serve`** to run the solution and Open http://localhost:4200 on the browser.
+  ![image](https://user-images.githubusercontent.com/25504137/199137772-beb4f7ed-08db-428f-baec-e6e8bb144342.png)
+
