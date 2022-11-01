@@ -19,8 +19,8 @@ Tech stack
 
 How to run the solution ?
 ------------------------------------
-Running the code 
-Back-end/ Microservice
+# Running the code 
+## Back-end/ Microservice
 The back-end application is implemented with entity core (EF Core)  and built to work with a MS SQL Server database for data/storage usage. Here, code first approach is being used and Database Migration and Seeds are available with the solution **PaySlip.DbMigration**.
 + First, create an empty database with an available/ accessible MS SQL Server.
 + DB Connectivity - Update the connection string with **PaySlipDbContext** inside appsettings.json file of the solution **PaySlip.Api**.
